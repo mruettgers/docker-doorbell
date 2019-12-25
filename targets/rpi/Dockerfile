@@ -11,4 +11,3 @@ RUN addgroup nobody pulse-access
 COPY files/ /
 
 ENTRYPOINT ["/docker/docker-entrypoint.sh"]
-#CMD ["mini_httpd", "-d", "/var/www/localhost/htdocs", "-D", "-c", "**.sh"]
