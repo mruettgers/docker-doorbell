@@ -1,4 +1,4 @@
-FROM mruettgers/rpi-pulseaudio
+FROM mruettgers/pulseaudio
 MAINTAINER Michael Ruettgers <michael@ruettgers.eu>
 
 ENV DOORBELL_SOUND=/doorbell/sounds/doorsound-2.wav
